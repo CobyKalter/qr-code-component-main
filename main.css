@@ -1,0 +1,59 @@
+
+
+/* ======== BASE STYLINGS ======== */
+
+
+body {
+    background-color: hsl(212, 45%, 89%);
+    max-height: 667px;
+    font-size: 15px;
+    margin: 85px 28px 85px 28px;
+}
+
+h1 {
+    font-family: 'Outfit', 'sans-serif';
+    text-align: center;
+    font-weight: 700;
+}
+
+p {
+    font-family: 'Outfit', 'sans-serif';
+    text-align: center;
+    font-weight: 400;
+}
+
+.card {
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 320px;
+    height: 497px;
+}
+
+img {
+    height: 288px;
+    width: 288px;
+    
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+/* ======== TAB STYLINGS ======== */
+
+@media only screen and (min-width: 768px) {
+    
+}
+/* ======== DESKTOP STYLINGS ======== */
+
+@media only screen and (min-width: 1200px) {
+    
+}
