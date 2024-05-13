@@ -2,10 +2,12 @@
 
 /* ======== BASE STYLINGS ======== */
 
+html {
+    max-height: 667px;
+}
 
 body {
     background-color: hsl(212, 45%, 89%);
-    max-height: 667px;
     font-size: 15px;
     margin: 0;
 }
@@ -63,16 +65,22 @@ img {
 /* ======== TAB STYLINGS ======== */
 
 @media only screen and (min-width: 768px) {
-    
-}
-/* ======== DESKTOP STYLINGS ======== */
-
-@media only screen and (min-width: 1440px) {
-
     body {
         display: flex;
         justify-content: center;
         align-items: center;
         flex-flow: column;
+    }
+}
+/* ======== DESKTOP STYLINGS ======== */
+
+@media only screen and (min-width: 1440px) {
+
+    html {
+        max-height: 800px;
+    }
+
+    .card {
+        margin: 152px 28px 152px 28px;
     }
 }
