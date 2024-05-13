@@ -11,33 +11,44 @@ body {
 }
 
 h1 {
+    color: hsl(218, 44%, 22%);
     font-family: 'Outfit', 'sans-serif';
     text-align: center;
+    font-size: 22px;
     font-weight: 700;
 }
 
 p {
+    color: hsl(220, 15%, 55%);
     font-family: 'Outfit', 'sans-serif';
     text-align: center;
     font-weight: 400;
+    padding: 0 10px;
 }
 
 .card {
     background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     width: 320px;
     height: 497px;
     margin: 85px 28px 85px 28px;
+    filter: drop-shadow(#c0bbbbe4 0 25px 25px);
 }
 
+
 img {
+    border-radius: 10px;
     height: 288px;
     width: 288px;
-    padding: 16px 16px 0 16px;
     overflow: hidden;
+}
+
+.card-text {
+    max-width: 278px;
 }
 
 .attribution { 
