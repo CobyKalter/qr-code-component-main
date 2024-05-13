@@ -7,7 +7,7 @@ body {
     background-color: hsl(212, 45%, 89%);
     max-height: 667px;
     font-size: 15px;
-    margin: 85px 28px 85px 28px;
+    margin: 0;
 }
 
 h1 {
@@ -30,12 +30,14 @@ p {
     align-items: center;
     width: 320px;
     height: 497px;
+    margin: 85px 28px 85px 28px;
 }
 
 img {
     height: 288px;
     width: 288px;
-    
+    padding: 16px 16px 0 16px;
+    overflow: hidden;
 }
 
 .attribution { 
